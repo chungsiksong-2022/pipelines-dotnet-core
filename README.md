@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/SecuDapp/pipelines-dotnet-core/_apis/build/status/chungsiksong-2022.todo-list?branchName=master)](https://dev.azure.com/SecuDapp/pipelines-dotnet-core/_build/latest?definitionId=4&branchName=master)
+[![Build Status](https://dev.azure.com/SecuDapp/pipelines-dotnet-core/_apis/build/status/chungsiksong-2022.pipelines-dotnet-core?branchName=master)](https://dev.azure.com/SecuDapp/pipelines-dotnet-core/_build/latest?definitionId=3&branchName=master)
 
 # Sample ASP.NET Core application for Azure Pipelines docs
 
