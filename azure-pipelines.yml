@@ -15,3 +15,13 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Azure subscription 1(a38cf16c-8668-4313-b4fa-8e91aeeabe24)'
+    appType: 'webAppLinux'
+    appName: 'MyWebApp'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
