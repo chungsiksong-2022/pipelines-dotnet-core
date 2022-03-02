@@ -23,5 +23,5 @@ steps:
   inputs:
     azureSubscription: 'Azure subscription 1(a38cf16c-8668-4313-b4fa-8e91aeeabe24)'
     appType: 'webAppLinux'
-    appName: 'MyWebApp'
+    appName: 'myapp-webapp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
